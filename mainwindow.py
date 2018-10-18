@@ -283,6 +283,7 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
                 png = QtGui.QPixmap(png).scaled(self.label_x1.width(), self.label_x1.height())
                 self.label_y4.setPixmap(png)
 
+
     def show_4(self,line_re,i):
         ''''''
         if i<len(line_re):
