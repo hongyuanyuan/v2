@@ -284,6 +284,9 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
                 self.label_y4.setPixmap(png)
 
 
+
+
+
     def show_4(self,line_re,i):
         ''''''
         if i<len(line_re):
@@ -299,6 +302,7 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
                 png = QtGui.QPixmap(im_path).scaled(self.label_x1.width(), self.label_x1.height())
                 self.label_x1.setPixmap(png)
         ''''''
+        '''test'''
         if i+1 < len(line_re):
             im_id = line_re[i+1]
             im_id = im_id.split('_')
